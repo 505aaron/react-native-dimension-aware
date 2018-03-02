@@ -2,6 +2,10 @@
   "name": "react-native-dimension-aware",
   "version": "0.1.0",
   "main": "lib/index.js",
+  "description":
+    "A react native library that allows you to easily inspect and manage device dimensions.",
+  "author": "Aaron Cordova",
+  "homepage": "https://github.com/505aaron/react-native-dimension-aware",
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
     "husky": "^0.14.3",
@@ -14,10 +18,16 @@
     "react-native": "^0.54.0",
     "react-test-renderer": "16.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/505aaron/react-native-dimension-aware"
+  },
   "peerDependencies": {
     "react": "16.x",
     "react-native": ">= 0.46.0"
   },
+  "keywords": ["react", "react-native", "Dimensions"],
+  "files": ["lib/", "LICENSE", "README.md", "package.json"],
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
