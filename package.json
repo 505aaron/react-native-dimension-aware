@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "main": "lib/index.js",
   "description":
-    "A react native library that allows you to easily inspect and manage device dimensions.",
+    "A react native library that allows you to easily respond to device dimension changes.",
   "author": "Aaron Cordova",
   "homepage": "https://github.com/505aaron/react-native-dimension-aware",
   "devDependencies": {

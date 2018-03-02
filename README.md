@@ -3,7 +3,7 @@
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 
-Describe react-native-dimension-aware here.
+A react native library that allows you to easily respond to device dimension changes.
 
 [build-badge]: https://travis-ci.org/505aaron/react-native-dimension-aware.svg?branch=master
 [build]: https://travis-ci.org/505aaron/react-native-dimension-aware
