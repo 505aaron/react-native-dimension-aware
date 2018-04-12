@@ -22,7 +22,7 @@ exports[`DimensionAware lifecyle should re-render the component on updates 1`] =
 `;
 
 exports[`DimensionAware renders 1`] = `
-<View>
+<Component>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -39,5 +39,5 @@ exports[`DimensionAware renders 1`] = `
     Height 
     1334
   </Text>
-</View>
+</Component>
 `;
