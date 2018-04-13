@@ -20,7 +20,44 @@ Or if you prefer npm:
 
 ## Usage
 
-```javascript
+### Dimension Context
+
+Place the provider component in your react tree. For example:
+
+```jsx
+import { DimensionProvider } from "react-native-dimension-aware";
+
+<DimensionProvider>
+  <App />
+</DimensionProvider>;
+```
+
+Use the consumers in descendants of the provider component.
+
+```jsx
+import { ScreenConsumer, WindowConsumer } from "react-native-dimension-aware";
+
+<View>
+  <ScreenConsumer>
+    {(width, height) => {
+      <Text>Width {width}</Text>
+      <Text>Height {height}</Text>
+    }}
+  </ScreenConsumer>
+  <WindowConsumer>
+    {(width, height) => {
+      <Text>Width {width}</Text>
+      <Text>Height {height}</Text>
+    }}
+  </WindowConsumer>
+</View>
+```
+
+The dimension provider will take care of updates and broadcast to any consumers in your react tree.
+
+### DimensionAware
+
+```jsx
 import {
   DimensionAware,
   getWindowWidth,
