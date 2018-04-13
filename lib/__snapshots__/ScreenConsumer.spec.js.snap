@@ -1,6 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DimensionAware lifecyle should re-render the component on updates 1`] = `
+exports[`ScreenConsumer lifecyle render context 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Width 
+    200
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Height 
+    200
+  </Text>
+</View>
+`;
+
+exports[`ScreenConsumer lifecyle should re-render the component on updates 1`] = `
 <View>
   <Text
     accessible={true}
@@ -19,25 +40,4 @@ exports[`DimensionAware lifecyle should re-render the component on updates 1`] =
     2000
   </Text>
 </View>
-`;
-
-exports[`DimensionAware renders 1`] = `
-<Component>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
-    Width 
-    750
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
-    Height 
-    1334
-  </Text>
-</Component>
 `;
