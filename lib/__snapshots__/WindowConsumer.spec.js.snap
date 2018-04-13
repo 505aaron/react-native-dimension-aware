@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DimensionContext lifecyle render context 1`] = `
+exports[`ScreenConsumer lifecyle render context 1`] = `
 <View>
   <Text
     accessible={true}
@@ -8,7 +8,7 @@ exports[`DimensionContext lifecyle render context 1`] = `
     ellipsizeMode="tail"
   >
     Width 
-    200
+    750
   </Text>
   <Text
     accessible={true}
@@ -16,12 +16,12 @@ exports[`DimensionContext lifecyle render context 1`] = `
     ellipsizeMode="tail"
   >
     Height 
-    200
+    1334
   </Text>
 </View>
 `;
 
-exports[`DimensionContext lifecyle should re-render the component on updates 1`] = `
+exports[`ScreenConsumer lifecyle should re-render the component on updates 1`] = `
 <View>
   <Text
     accessible={true}
@@ -29,7 +29,7 @@ exports[`DimensionContext lifecyle should re-render the component on updates 1`]
     ellipsizeMode="tail"
   >
     Width 
-    4000
+    750
   </Text>
   <Text
     accessible={true}
@@ -37,7 +37,7 @@ exports[`DimensionContext lifecyle should re-render the component on updates 1`]
     ellipsizeMode="tail"
   >
     Height 
-    2000
+    1334
   </Text>
 </View>
 `;

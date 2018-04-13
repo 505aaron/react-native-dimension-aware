@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DimensionContext lifecyle render context 1`] = `
+exports[`ScreenConsumer lifecyle render context 1`] = `
 <View>
   <Text
     accessible={true}
@@ -21,7 +21,7 @@ exports[`DimensionContext lifecyle render context 1`] = `
 </View>
 `;
 
-exports[`DimensionContext lifecyle should re-render the component on updates 1`] = `
+exports[`ScreenConsumer lifecyle should re-render the component on updates 1`] = `
 <View>
   <Text
     accessible={true}
