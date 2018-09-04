@@ -1,20 +1,103 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DimensionAware lifecyle should re-render the component on updates 1`] = `
+exports[`DimensionAware lifecyle screen should override both 1`] = `
 <View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
+    Width 
+    60
+  </Text>
+  <Text>
+    Height 
+    30
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle screen should override height 1`] = `
+<View>
+  <Text>
     Width 
     4000
   </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
+    Height 
+    30
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle screen should override width 1`] = `
+<View>
+  <Text>
+    Width 
+    30
+  </Text>
+  <Text>
+    Height 
+    2000
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle screen should re-render the component on updates 1`] = `
+<View>
+  <Text>
+    Width 
+    4000
+  </Text>
+  <Text>
+    Height 
+    2000
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle window should override both 1`] = `
+<View>
+  <Text>
+    Width 
+    60
+  </Text>
+  <Text>
+    Height 
+    30
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle window should override height 1`] = `
+<View>
+  <Text>
+    Width 
+    4000
+  </Text>
+  <Text>
+    Height 
+    30
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle window should override width 1`] = `
+<View>
+  <Text>
+    Width 
+    30
+  </Text>
+  <Text>
+    Height 
+    2000
+  </Text>
+</View>
+`;
+
+exports[`DimensionAware lifecyle window should re-render the component on updates 1`] = `
+<View>
+  <Text>
+    Width 
+    4000
+  </Text>
+  <Text>
     Height 
     2000
   </Text>
@@ -23,21 +106,13 @@ exports[`DimensionAware lifecyle should re-render the component on updates 1`] =
 
 exports[`DimensionAware renders 1`] = `
 <Component>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Component>
     Width 
     750
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  </Component>
+  <Component>
     Height 
     1334
-  </Text>
+  </Component>
 </Component>
 `;
