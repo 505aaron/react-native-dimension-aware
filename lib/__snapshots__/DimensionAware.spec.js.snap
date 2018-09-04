@@ -2,19 +2,11 @@
 
 exports[`DimensionAware lifecyle should re-render the component on updates 1`] = `
 <View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
     Width 
     4000
   </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
     Height 
     2000
   </Text>
@@ -23,21 +15,13 @@ exports[`DimensionAware lifecyle should re-render the component on updates 1`] =
 
 exports[`DimensionAware renders 1`] = `
 <Component>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Component>
     Width 
     750
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  </Component>
+  <Component>
     Height 
     1334
-  </Text>
+  </Component>
 </Component>
 `;

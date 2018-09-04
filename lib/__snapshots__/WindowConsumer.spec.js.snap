@@ -2,19 +2,11 @@
 
 exports[`WindowConsumer lifecyle render context 1`] = `
 <View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
     Width 
     200
   </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
     Height 
     200
   </Text>
@@ -23,19 +15,11 @@ exports[`WindowConsumer lifecyle render context 1`] = `
 
 exports[`WindowConsumer lifecyle should re-render the component on updates 1`] = `
 <View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
     Width 
     4000
   </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-  >
+  <Text>
     Height 
     2000
   </Text>
